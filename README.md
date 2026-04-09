@@ -54,7 +54,7 @@ npm run build
 ## Submission Links
 
 - Repository: https://github.com/NCHAKRADHAR-SINGH1/calender
-- Video demo (required): Add your Loom/YouTube recording URL here
+- Video demo (required): https://www.youtube.com/watch?v=d4sBPmSXTSc
 - Live demo (optional): https://calender-pink-five.vercel.app/
 
 ## Implementation Notes
