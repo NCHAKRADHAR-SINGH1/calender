@@ -1,0 +1,22 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky1" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EC7FF"/>
+      <stop offset="1" stop-color="#DDF3FF"/>
+    </linearGradient>
+    <linearGradient id="mount1" x1="435" y1="390" x2="550" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D4A66"/>
+      <stop offset="1" stop-color="#1B2D3F"/>
+    </linearGradient>
+    <linearGradient id="mount2" x1="1060" y1="300" x2="1130" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3D6282"/>
+      <stop offset="1" stop-color="#243F57"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky1)"/>
+  <circle cx="1335" cy="130" r="80" fill="#FFE59D"/>
+  <path d="M0 620L240 450L430 620L620 380L860 620L1060 320L1380 620L1600 510V900H0V620Z" fill="url(#mount1)"/>
+  <path d="M0 690L220 580L390 700L660 520L930 710L1180 470L1400 620L1600 560V900H0V690Z" fill="url(#mount2)"/>
+  <path d="M820 610L900 470L940 610H820Z" fill="#EA4C3A"/>
+  <path d="M866 580L896 610L860 700L835 700L866 580Z" fill="#0F2535"/>
+</svg>

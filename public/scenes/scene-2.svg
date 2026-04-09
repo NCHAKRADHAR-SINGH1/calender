@@ -1,0 +1,22 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky2" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CE6D7"/>
+      <stop offset="1" stop-color="#E9FFF7"/>
+    </linearGradient>
+    <linearGradient id="hillA" x1="800" y1="280" x2="800" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D7A64"/>
+      <stop offset="1" stop-color="#184E41"/>
+    </linearGradient>
+    <linearGradient id="hillB" x1="800" y1="430" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3D9B79"/>
+      <stop offset="1" stop-color="#23634F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky2)"/>
+  <circle cx="220" cy="170" r="72" fill="#FFF4B2"/>
+  <path d="M0 600C140 540 250 460 410 470C560 478 690 565 830 560C980 553 1110 460 1280 474C1400 484 1510 548 1600 590V900H0V600Z" fill="url(#hillA)"/>
+  <path d="M0 700C170 612 320 628 490 670C660 712 780 770 930 760C1100 748 1240 650 1420 652C1490 652 1540 675 1600 705V900H0V700Z" fill="url(#hillB)"/>
+  <rect x="1120" y="520" width="30" height="170" fill="#2E3F45"/>
+  <path d="M1000 550C1070 490 1130 470 1220 500C1150 545 1090 565 1000 550Z" fill="#E04D36"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky3" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7D9BFF"/>
+      <stop offset="1" stop-color="#EAF0FF"/>
+    </linearGradient>
+    <linearGradient id="rock1" x1="500" y1="340" x2="620" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4B5672"/>
+      <stop offset="1" stop-color="#2F3A52"/>
+    </linearGradient>
+    <linearGradient id="rock2" x1="980" y1="250" x2="1120" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#66749A"/>
+      <stop offset="1" stop-color="#394767"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky3)"/>
+  <ellipse cx="760" cy="840" rx="760" ry="120" fill="#FFFFFF" fill-opacity="0.6"/>
+  <path d="M0 700L230 580L420 640L660 430L930 620L1160 360L1410 540L1600 490V900H0V700Z" fill="url(#rock1)"/>
+  <path d="M0 760L180 680L420 740L650 580L860 700L1060 530L1320 670L1600 620V900H0V760Z" fill="url(#rock2)"/>
+  <path d="M760 585L825 520L860 590L795 650L760 585Z" fill="#EB533C"/>
+  <path d="M796 648L840 700L800 785L760 782L796 648Z" fill="#1E2C3E"/>
+</svg>
