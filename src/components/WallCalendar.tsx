@@ -300,10 +300,16 @@ export default function WallCalendar() {
     setHoverDate(null);
   };
 
-  const changeScene = (): void => {
-    setHeroIndex((prev) => (prev + 1) % HERO_IMAGES.length);
-    setSceneFadeKey((prev) => prev + 1);
-  };
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setHeroIndex((prev) => (prev + 1) % HERO_IMAGES.length);
+      setSceneFadeKey((prev) => prev + 1);
+    }, 4000);
+
+    return () => {
+      window.clearInterval(timer);
+    };
+  }, []);
 
   const parseSavedNotes = useMemo(() => {
     const notes: Array<{
@@ -377,9 +383,6 @@ export default function WallCalendar() {
           <div className="sheet-actions">
             <p className="sheet-caption">Wall calendar controls</p>
             <div className="action-buttons">
-              <button type="button" className="ghost-button dark" onClick={changeScene}>
-                Change scene
-              </button>
               <button
                 type="button"
                 className="ghost-button dark"
